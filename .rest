@@ -1,5 +1,12 @@
-GET https://project1-22ow.onrender.com/users HTTP/1.1
+### Get ALL usersr
+GET http://localhost:3000/users HTTP/1.1
 
 ###
 
+GET https://project1-22ow.onrender.com/users HTTP/1.1
+### Get single user
+
+GET http://localhost:3000/users/666cf755f7cf35ee2acd7d35 HTTP/1.1
+
+###
 GET https://project1-22ow.onrender.com/users/666cf755f7cf35ee2acd7d35 HTTP/1.1
