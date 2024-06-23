@@ -10,3 +10,32 @@ GET http://localhost:3000/contacts/666cf755f7cf35ee2acd7d35 HTTP/1.1
 
 ###
 GET https://project1-22ow.onrender.com/contacts/666cf755f7cf35ee2acd7d35 HTTP/1.1
+
+###
+POST http://localhost:3000/contacts/  HTTP/1.1
+content-type: application/json
+
+{
+    "firstname":"Jarom",
+    "lastname":"Mariscal",
+    "email":"jmz@email.com",
+    "favoriteColor": "White",
+    "birthday" : "10/04/2001"
+}
+
+###
+PUT http://localhost:3000/contacts/666cf755f7cf35ee2acd7d35
+content-type: application/json
+
+{
+   "firstname":"Updated",
+   "lastname":"Name",
+   "email":"jmz@email.com",
+   "favoriteColor":"White",
+   "birthday":"10/04/2001"
+
+}
+
+###
+DELETE http://localhost:3000/contacts/666d0da137dc4cead21df7b1
+
