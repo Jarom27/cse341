@@ -28,7 +28,7 @@ const addUser = async (req, res) => {
         birthday: req.body.birthday
     }
     const response = await mongoDb.getDatabase().db().collection('users').insertOne(user)
-    if (response.acknowledge) {
+    if (response.acknowledged) {
         res.status(200).send()
     }
     else {
