@@ -5,9 +5,9 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "localhost:3001",
+  "host": "https://project1-22ow.onrender.com",
   "basePath": "/",
-  "schemes": ["http", "https"],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
